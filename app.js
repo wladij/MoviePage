@@ -18,7 +18,7 @@ btnPrevious.addEventListener('click', () => {
 
 const uploadMovies = async() => {
 	try {
-		const response = await fetch(`https://api.themoviedb.org/3/movie/popular?api_key=192e0b9821564f26f52949758ea3c473&language=es-MX&page=${page}`);
+		const response = await fetch(`https://api.themoviedb.org/3/movie/popular?api_key=da4dca21ee52d7b2d35e2845f3c1dc8e&page=${page}`);
 	
 		console.log(response);
 
